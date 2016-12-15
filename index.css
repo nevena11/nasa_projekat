@@ -1,0 +1,101 @@
+body{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	position: absolute;
+}
+
+#left{
+	width:400px;
+	position: fixed;
+	top:0;
+	bottom: 0px;
+	left: 0px;
+	background:black;
+	border:3px solid rgb(218, 214, 219);
+	color: rgb(76, 57, 81);
+	font-family: 'New Times Area', cursive;
+}
+
+#right{
+	width: 100%;
+	height:100%;
+	padding-left: 405px;
+	border: 1px solid rgb(76,57,81);
+	right: 0;
+	bottom: 0;
+	background-color: grey;
+}
+
+.sel-img {
+	display: flex;
+	margin: 40px auto;
+}
+
+.box {
+	width: 30%;
+	height: 100px;
+	overflow: hidden;
+	margin: 5px 10px;
+	border: 5px solid rgb(218, 214, 219);
+	border-radius: 4px;
+}
+.rover {
+	width: 170px;
+    display: block;
+    margin-left: -25px;
+}
+
+
+
+.text {
+	background-color: none;
+	width: 200px;
+	text-align: center;
+	word-wrap: break-word;
+	margin: 10px auto;
+
+}
+
+.cameras {
+	text-align: left;
+	width: 175px;
+    margin: 20px auto;
+    font-size: 30px
+}
+
+.show {
+	margin-left: auto;
+	margin-top: 50px;
+	background-color: rgb(218, 214, 219);
+	font-size: 30px;
+	border: 3px solid rgb(76,57,81);
+}
+
+.thumbnail {
+	width: 300px;
+	margin: 10px 10px 10px 10px;
+}
+
+.rover-active {
+	width: 170px;
+    display: block;
+    margin-left: -25px;
+	border: 11px solid rgb(76,57,81);
+}
+
+.sel_sol {
+	margin-top: 70px;
+	margin-bottom: 70px;
+	font-size: 30px
+}
+
+input[type='radio'] {
+    transform: scale(1.5);
+}
+
+
+
+
+
+
